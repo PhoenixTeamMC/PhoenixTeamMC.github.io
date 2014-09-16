@@ -4,8 +4,17 @@
    <meta charset='utf-8'>
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="./Scripts/MenuStyles/styles.css">
+   <link rel="stylesheet" href="./Recources/Scripts/MenuStyles/styles.css">
    <title>PhoenixTeam Website</title>
+   
+   <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("./Recources/Stylesheet/menu.html"); 
+    });
+    </script> 
+   </head>
+   
    </head>
    
   
@@ -16,7 +25,10 @@
    
 <body background="Backgroundtest.jpg">
 
+<div id="includedContent"></div>
+
 <!--begin of Menu, dont Edit!  -Elec332      -->
+<!--
 <div id='cssmenu'>
 <ul>
    <li class='active'><a href='#'><span>Home</span></a>
