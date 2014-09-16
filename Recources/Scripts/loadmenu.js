@@ -1,5 +1,4 @@
-<script src="./Recources/Scripts/jquery/jquery.js"></script> 
-    <script> 
+    <script type="text/javascript"> 
     $(function(){
       $("#includedContent").load("./Recources/Stylesheet/menu.html"); 
     });
