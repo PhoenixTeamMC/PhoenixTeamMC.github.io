@@ -6,11 +6,21 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="../../Scripts/MenuStyles/styles.css">
    <title>PhoenixTeam Website</title>
-   <!--#include file="index.html" -->
+   <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("menu.html"); 
+    });
+    </script> 
    </head>
 <body>
 
-<?php include('menu.php');?>
+
+
+<div id="includedContent"></div>
+
+
+Test
 
 <!--begin of Menu, dont Edit!  -Elec332      --><!--
 
